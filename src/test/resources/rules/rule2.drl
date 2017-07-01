@@ -1,0 +1,29 @@
+package test2
+import cn.szm.entity.Person
+import cn.szm.entity.DataValue
+rule "t1"
+    salience 10
+    when
+        $dv:DataValue(price==Double.valueOf("6.6"))
+    then
+    System.out.println("----------t1----执行");
+
+end
+rule "t2"
+    when
+
+    then
+        System.out.printf("------------->t2执行");
+end
+rule "t3"
+    when
+
+    then
+        System.out.printf("------------->t3执行");
+end
+rule "t4"
+    when
+
+    then
+        System.out.printf("------------->t4执行");
+end

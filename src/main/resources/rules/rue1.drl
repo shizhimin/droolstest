@@ -1,0 +1,7 @@
+package test
+rule "test1"
+    when
+        eval(true)
+    then
+        System.out.println("-------->nihao");
+end

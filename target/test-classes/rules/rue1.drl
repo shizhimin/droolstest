@@ -1,0 +1,9 @@
+package test
+import java.util.Map
+rule "test1"
+    when
+        $map:Map(get("k1")==1)
+    then
+        System.out.println($map.get("k1"));
+        System.out.println("-------->nihao");
+end

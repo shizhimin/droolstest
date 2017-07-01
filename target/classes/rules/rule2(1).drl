@@ -1,0 +1,26 @@
+package test2
+
+rule "t1"
+    when
+
+    then
+        System.out.printf("------------->t1执行");
+end
+rule "t2"
+    when
+
+    then
+        System.out.printf("------------->t2执行");
+end
+rule "t3"
+    when
+
+    then
+        System.out.printf("------------->t3执行");
+end
+rule "t4"
+    when
+
+    then
+        System.out.printf("------------->t4执行");
+end
